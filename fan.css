@@ -1,0 +1,20 @@
+* {font-family:  "Inconsolata", "OPlusSans 3.0" !important;line-height: 2;text-shadow: 0.1px 0.1px 0.3px #2f2f2f;font-size:16px;}
+p {margin: 10px 0;}  /* 段落 */
+
+h1 {color:white;line-height: 1.5; font-size: 150%;background: #000066 !important;padding: 10px;border-radius: 3px; margin:10px 0 !important;}  /* 一级标题 */
+h2 {line-height: 1.5; font-size: 130%;background: #E7ECFF;padding: 5px;border-radius: 3px; margin:10px 0 !important;}
+h3 {line-height: 1.5; font-size: 110%; margin:10px 0 !important;}
+ul, ol {margin:5px 0;}  /* 列表 */
+ul li {padding-top: 3px;}  /* 列表项 */
+ol li {padding-top: 0px;}  /* 列表项 */
+ol li::marker, ul li::marker {color:#000066;}
+strong {color: #ff3939;text-shadow: 0.1px 0.1px 0.1px #ff3939;}  /* 双星号 */
+em {font-style: normal;color: #00b414;text-shadow: 0.1px 0.1px 0.1px #00b414;}  /* 单星号 */
+hr {border: 0;border-bottom: 2px dashed #000066;margin: 20px 0;}  /* 水平线 */
+table {font-size:85%;word-break: break-all;} /* 表格 */
+th {background: #dddddd !important;}    /* 表头 */
+td {font-size:90% !important; line-height:1.2;}    /* 表内容 */
+blockquote {border-left: 4px solid #aaaaaa;background: #f7f7f7;color: #4e4e4e;margin: 10px 0;padding: 5px 10px;border-radius: 3px;}   /* 引用 */
+code {vertical-align: baseline !important; color: #000000;background: #f7f7f7; text-shadow: 0.1px 0.1px 0.1px #666666 !important;vertical-align:top;padding: 5px;}    /* 单行代码 */
+pre {background: #f7f7f7;border: 1px solid #dddddd;padding:10px;line-height:1;}    /* 多行代码 */
+img {width:50%}
